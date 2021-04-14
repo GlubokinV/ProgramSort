@@ -5,4 +5,5 @@
 необходима поддержка стандарта ANSI.
 
 В windows 10 можно проверить этот параметр в реестре:
+
 [HKEY_CURRENT_USER \ Console] "VirtualTerminalLevel" = DWORD: 00000001
