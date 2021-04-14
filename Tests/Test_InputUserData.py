@@ -27,6 +27,13 @@ class TestExample(unittest.TestCase):
         x = DataInput()
         self.assertRaises(ValueError, x.example, [])
 
+    def test_example_long_line(self):
+        """Разбивает длинную строку на отдельные символы?"""
+        x = DataInput()
+        res = x.example('З!@sd;о;;;;qqqqqqqq')
+        self.assertEqual(res, ['З', '!', '@', 's', 'd', ';', 'о', ';', ';', ';', ';', 'q', 'q',
+                               'q', 'q', 'q', 'q', 'q', 'q'])
+
 
 if __name__ == '__main__':
     unittest.main()
