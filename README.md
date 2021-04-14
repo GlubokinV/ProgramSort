@@ -7,3 +7,5 @@
 В windows 10 можно проверить этот параметр в реестре:
 
 [HKEY_CURRENT_USER \ Console] "VirtualTerminalLevel" = DWORD: 00000001
+
+Программа запускается файлом StartProgram.py
