@@ -91,7 +91,6 @@ class TestSortNumbers(unittest.TestCase):
         self.assertEqual(res_2, [1])
 
 
-
 class TestNumbersToLetters(unittest.TestCase):
     """Тестирование функции конвертации букв в цифры и раскрашивает их
      3=К(красный), 1=З(зелёный), 2=(синий)"""
