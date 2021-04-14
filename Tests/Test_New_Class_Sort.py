@@ -84,6 +84,13 @@ class TestSortNumbers(unittest.TestCase):
         res_2 = x.sorter([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
         self.assertEqual(res_2, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
 
+    def test_sorter_one_number(self):
+        """Функция производит сортировку одной цифры?"""
+        x = DataSort()
+        res_2 = x.sorter([1])
+        self.assertEqual(res_2, [1])
+
+
 
 class TestNumbersToLetters(unittest.TestCase):
     """Тестирование функции конвертации букв в цифры и раскрашивает их
