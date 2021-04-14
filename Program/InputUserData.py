@@ -12,5 +12,3 @@ class DataInput:
         if findall(r'[КСЗ]', str(userInput)) == []:
             raise ValueError('Введённые данные не содержат элементов для сортировки!')
         return inplett
-
-
