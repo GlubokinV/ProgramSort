@@ -2,7 +2,7 @@ from re import findall
 
 
 class DataSort:
-    """Класс работы с вводными данными"""
+    """Класс работы с введённой пользователем строкой"""
 
     def isolator(self, user_data):
         """Вычленение букв З,С,К из вводимой строки"""
@@ -32,7 +32,7 @@ class DataSort:
         return _my_numbers
 
     def sorter(self, num_list):
-        """Сортировка переименовать пузырьком"""
+        """Сортировка полученных цифр"""
         self.num_list = num_list
         count = 0
         mas = num_list
@@ -53,4 +53,3 @@ class DataSort:
         for number in _my_message:
             sorted_text.append(my_dictionary[number])
         return sorted_text
-
