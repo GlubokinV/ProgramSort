@@ -6,7 +6,7 @@ DataInput = DataInput()
 DataSort = DataSort()
 
 
-input_text = DataInput.example(input("Введите символы, содержащие З, С и К:"))
+input_text = DataInput.example(input("Введите строку, содержащую З, С и К:"))
 isolated_text = DataSort.isolator(input_text)
 colored_text = DataSort.coloring_letter(isolated_text)
 numbered_letter = DataSort.letters_to_numbers(isolated_text)
