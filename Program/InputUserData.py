@@ -9,6 +9,6 @@ class DataInput:
 
         split_text = map(str, userInput)
         inplett = list(split_text)
-        if findall(r'[КСЗ]', str(userInput)) == []:
+        if not findall(r'[КСЗ]', str(inplett)):
             raise ValueError('Введённые данные не содержат элементов для сортировки!')
         return inplett
