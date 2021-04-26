@@ -1,6 +1,6 @@
 import unittest
 from Program.New_Sorter import DataInput
-"""Написать интеграционный тест (тест взаимодействия модулей)"""
+
 
 
 class TestIntegration(unittest.TestCase):
