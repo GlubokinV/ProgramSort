@@ -2,10 +2,10 @@ import unittest
 from Program.New_Sorter import DataInput
 
 
-class TestIntegration(unittest.TestCase):
+class TestCooperation(unittest.TestCase):
     """Тестирование взаимодействия модулей программы сортировки"""
 
-    def test_integration_empty_input_condition(self):
+    def test_Cooperation_empty_input_condition(self):
         """Тестирование взаимодействия функций программы сортировки, если введена корректная строка с символами,
          подлежащими сортировке, но пустая строка вместо последовательности для упорядочивания.
         Ожидаемый результат:
@@ -14,7 +14,7 @@ class TestIntegration(unittest.TestCase):
         y = x.char_count('ЗКЗЗСЗКЗСЗ')
         self.assertRaises(ValueError, x.sort_condition, y, '')
 
-    def test_integration_norm(self):
+    def test_Cooperation_norm(self):
         """Тестирование взаимодействия модулей программы сортировки, если введена корректная строка с символами,
          подлежащими сортировке и корректная последовательность для упорядочивания.
         Ожидаемый результат: Введённая строка упорядочена в соответствии с введённым порядком сортировки"""
