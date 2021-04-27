@@ -27,10 +27,9 @@
 
 
 ### Иллюстрация результата работы программы:
-![image](https://user-images.githubusercontent.com/79124989/116203366-d1e65200-a765-11eb-9426-6a0596de6ffc.png)
+![img.png](img.png)
 
-
-Тестовая документация: [документация]((https://github.com/GlubokinV/ProgramSort/tree/Program_Sort_v2.0/Documentation))
+Тестовая документация находится в папке Documentation, в корне проекта.
 
 
 
@@ -62,5 +61,3 @@
 
 ### Иллюстрация результата работы программы:
 ![image](https://user-images.githubusercontent.com/79124989/114736339-35d54780-9d70-11eb-94ba-c556c33066fd.png)
-
-
