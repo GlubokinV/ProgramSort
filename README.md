@@ -27,7 +27,8 @@
 
 
 ### Иллюстрация результата работы программы:
-![img.png](img.png)
+![image](https://user-images.githubusercontent.com/79124989/116203366-d1e65200-a765-11eb-9426-6a0596de6ffc.png)
+
 
 Тестовая документация находится в папке Documentation, в корне проекта.
 
