@@ -1,11 +1,11 @@
 from re import findall
 
 
-
 class DataInput:
+    """Подсчёт количества символов К,З и С в строке, введённой пользователем"""
+
     def char_count(self, input_data):
         template = r"[КЗС]"
-        input_data = findall(template, str(input_data))
         if not findall(template, str(input_data)):
             raise ValueError('Введена пустая строка или введённые данные не содержат элементов для сортировки!')
         s, k, z = 0, 0, 0
@@ -19,15 +19,16 @@ class DataInput:
         result_count = [s, k, z]
         return result_count
 
-    def sort_condition(self, calc_char, input_data):
+    def sort_condition(self, calc_char, input_condition):
+        """Сортировка символов, согласно введённому количеству, подсчитанному в методе "char_count"
+         и согласно введённому пользователем порядку сортировки"""
+
         template = r"[КЗС]"
-        if not findall(template, str(input_data)):
+        if not findall(template, str(input_condition)):
             raise ValueError('Неверный формат сортировки!')
-        condition = findall(template, str(input_data))
+        condition = findall(template, str(input_condition))
         word_list = []
-        list_z = ""
-        list_k = ""
-        list_s = ""
+        list_z, list_k, list_s = "", "", ""
         unique = []
         [unique.append(item) for item in condition if item not in unique]
         n = 0
